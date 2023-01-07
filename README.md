@@ -1,5 +1,5 @@
 # TinyML---IA
-****Projet1:En utilisant TensorFlow Lite, Arduino ainsi que la carte Nano 33 Sense BLE, réalisez un projet qui permet de détecter le signe Yes (✓) ainsi que le signe No(X)
+## Projet1:En utilisant TensorFlow Lite, Arduino ainsi que la carte Nano 33 Sense BLE, réalisez un projet qui permet de détecter le signe Yes (✓) ainsi que le signe No(X)
 
 Voici les étapes générales à suivre pour réaliser ce projet:
 
