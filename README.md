@@ -15,3 +15,29 @@ Voici les étapes générales à suivre pour réaliser ce projet:
 
 
  * Resultat obtenu: Voir le Dossier Projet_1 ainsi que les images.
+
+
+## Projet 2: En utilisant la plateforme Edge Impulse, réalisez un projet qui permet de détecter les mots suivants: résistance, transistor, FPGA, microcontrôleur. Utilisez le mécanisme développé dans la première étape de ce projet pour faire clignoter la led L graduellement à chaque fois qu’on prononce un mot particulier. 
+
+
+Voici les étapes générales à suivre pour réaliser ce projet:
+
+- Créer un compte sur la plateforme Edge Impulse et se connecter.
+
+- Créer un nouveau projet en sélectionnant "Sound classification" dans la liste des modèles prédéfinis.
+
+- Suivre les étapes de la configuration initiale du projet, en sélectionnant le type de microcontrôleur et le matériel qu’on utilisera.
+
+- Enregistrer des échantillons de voix (20x4 échantillons) pour chaque mot qu’on souhaite détecter (résistance, transistor, FPGA, microcontrôleur). 
+
+- Entraîner le modèle en utilisant les échantillons d'enregistrement que nous avons précédemment ajoutés. Une fois l'entraînement terminé, nous voyons un score de précision pour chaque mot (94% dans l’ensemble).
+
+- On télécharge le code généré par Edge Impulse sur notre microcontrôleur(Arduino Sense BLE). “ plutôt une bibliothèque dans notre cas ei-bambafall-project-1-arduino-1.0.1 “
+
+- On ajoute/modifie du code pour faire clignoter la LED de manière graduelle chaque fois qu'un mot particulier est détecté.
+
+- Et enfin, on teste notre projet en prononçant chaque mot devant la carte Arduino Sense BLE et en vérifiant que la LED clignote de manière appropriée.
+
+
+Resultat obtenu: Voir le Dossier zippé Projet_2 ainsi que les images 
+
